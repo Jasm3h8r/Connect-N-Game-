@@ -106,7 +106,7 @@ def draw_board(board, screen, hovering_col, font, player_names, winning_position
     # Draw animated gradient background
     draw_gradient_background(screen)
 
-    # Draw grid with enhanced visuals
+    #with enhanced visuals
     for c in range(n):
         for r in range(k):
             # Grid squares with subtle animation
@@ -837,4 +837,7 @@ while not game_over:
     clock.tick(60)  # 60 FPS
 
 pygame.time.wait(1000)
+
+
 pygame.quit()
+
