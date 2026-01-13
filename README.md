@@ -12,24 +12,24 @@ Connect-N is a strategic board game where players take turns dropping colored pi
 
 The game features a comprehensive setup menu that allows players to customize every aspect of gameplay:
 
-1. **Grid Size Configuration**:
+1. **Grid Size Configuration**
    - Set number of columns (4-12) using left/right arrow keys
    - Set number of rows (4-12) using up/down arrow keys
    - Visual feedback displays current grid dimensions
 
-2. **Winning Condition**:
+2. **Winning Condition**
    - Choose how many consecutive pieces are needed to win (3 or more)
    - Must be compatible with chosen grid size
 
-3. **Game Mode Selection**:
+3. **Game Mode Selection**
    - **Player vs Player**: Local multiplayer for two human players
    - **Player vs AI**: Single player against computer opponent
 
-4. **Player Setup**:
+4. **Player Setup**
    - For PvP: Enter names for both players
    - For PvAI: Enter player name (AI automatically named)
 
-5. **AI Difficulty Selection** (PvAI mode only):
+5. **AI Difficulty Selection** (PvAI mode only)
    - **Easy**: Basic AI with mostly random moves and occasional strategy
    - **Medium**: Advanced AI using minimax algorithm with 3-ply depth
    - **Hard**: Expert AI with 5-ply depth and strategic evaluation
@@ -64,17 +64,17 @@ After setup completion, players see a summary of all chosen settings before star
 
 ### Difficulty Levels
 
-1. **Easy AI**:
+1. **Easy AI**
    - Primarily random move selection
    - ~30% strategic moves for unpredictability
    - Suitable for learning game basics
 
-2. **Medium AI**:
+2. **Medium AI**
    - Implements minimax algorithm with 3-ply search depth
    - Evaluates immediate threats and opportunities
    - Balanced challenge for intermediate players
 
-3. **Hard AI**:
+3. **Hard AI**
    - Advanced minimax with 5-ply search depth
    - Sophisticated position evaluation
    - Expert-level strategic play
@@ -141,16 +141,19 @@ The game tracks comprehensive statistics across sessions:
 ## System Requirements and Installation
 
 ### Requirements
+
 - Python 3.x
 - Pygame library
 - NumPy library
 
 ### Installation
+
 ```bash
 pip install pygame numpy
 ```
 
 ### Launch
+
 ```bash
 python connect_n_improved.py
 ```
@@ -158,11 +161,13 @@ python connect_n_improved.py
 ## Controls and Gameplay
 
 ### Menu Navigation
+
 - **Arrow Keys**: Navigate options and adjust values
 - **Enter**: Confirm selections and proceed
 - **ESC**: Cancel text input
 
 ### In-Game Controls
+
 - **Mouse**: Click columns to drop pieces, hover for preview
 - **Visual Feedback**: Glowing columns indicate valid moves
 
@@ -228,5 +233,6 @@ The codebase is designed for easy modification and extension:
 - **Extensible AI**: Add new difficulty levels or strategies
 - **Theme System**: Support for additional visual themes
 
-This enhanced Connect-N implementation provides a modern gaming experience while preserving the strategic depth of the classic game. Whether playing against friends or challenging sophisticated AI opponents, players will enjoy smooth gameplay with beautiful visuals and intelligent computer opponents.#   C o n n e c t - N - G a m e -  
- 
+---
+
+This enhanced Connect-N implementation provides a modern gaming experience while preserving the strategic depth of the classic game. Whether playing against friends or challenging sophisticated AI opponents, players will enjoy smooth gameplay with beautiful visuals and intelligent computer opponents.
